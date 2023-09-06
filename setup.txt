@@ -19,7 +19,7 @@
   2.5 Set "Auto-reply messages" to "Disable"
 
 4.Register & Using ngrok
-  4.1 Config ngrok following get start page (https://dashboard.ngrok.com/get-started/setup,using port 500 for this example project)
+  4.1 Config ngrok following get start page (https://dashboard.ngrok.com/get-started/setup,using port 5000 for this example project)
   4.2 Create api token via https://dashboard.ngrok.com/api
   4.3 Copy api token and past for NGROK_TOKEN_API in custom/Config.py
 
