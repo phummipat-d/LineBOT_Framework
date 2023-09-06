@@ -18,7 +18,7 @@ def manage(line_bot_api,payload):
         try:
             #รับข้อความที่ได้จากผู้ใช้งาน
             #txtMessage = payload['events'][0]['message']['text']
-            txtMessage = "Eth price : $1500"
+            txtMessage = "Hi,your message is : " + payload['events'][0]['message']['text']
             ReplyTextMessage(line_bot_api,replyToken, txtMessage )
         except Exception as e:
             print(e)
