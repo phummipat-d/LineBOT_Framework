@@ -1,6 +1,6 @@
 1.Copy "LineBOT_Framework" and change the name for your project
   1.1 install anaconda and update all packages
-  1.2 create new python(version>=3.7) enveronment such as "LineBOT"
+  1.2 create new python(version>=3.7) enveronment such as "LineBOT" (using conda : conda create -n LineBOT python=3.7 anaconda)
   1.3 install these packages using command below 
     1.3.1 conda install -c conda-forge requests
     1.3.2 conda install -c conda-forge flask
